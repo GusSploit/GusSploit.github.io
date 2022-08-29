@@ -31,7 +31,7 @@
 
 #navbar__logo {
     background-color: ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199);
+    background-image: linear-gradient(to top, #7e14ff 0%, #490c94);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -86,12 +86,12 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #f77062;
+    background: #7e14ff;
     color: #fff;
 }
 
 .button:hover {
-    background: #d13e2e;
+    background: #490c94;
     transition: all 0.5s ease;
 }
 
@@ -140,5 +140,5 @@
     padding: 0 1rem;
     color: #ffff;
     font-family: 'Titillium Web', sans-serif;
-    background-color: #f77062;
+    background-color: #7e14ff;
 }
