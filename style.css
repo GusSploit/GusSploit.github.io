@@ -1,0 +1,144 @@
+* {
+    background-color: #141414;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-color: ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    color: #fff;
+}
+
+.button:hover {
+    background: #d13e2e;
+    transition: all 0.5s ease;
+}
+
+.navbar__links:hover {
+    color: #f77062;
+    transition: all 0.5s ease;
+}
+
+.main {
+    background-color: #141414;
+}
+
+.main__container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 25vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 85vh;
+    max-width: 1300px;
+}
+
+.main__content {
+    color: #ffff;
+    font-size: 2rem;
+}
+
+.main__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    font-family: sans-serif;
+}
+
+.main__button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    color: #ffff;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #f77062;
+}
